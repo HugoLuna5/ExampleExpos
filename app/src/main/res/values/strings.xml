@@ -52,4 +52,11 @@
     <string name="pass">Contraseña</string>
 
 
+    <!--cuadros de texto-->
+    <string name="plain_text1">NOMBRE</string>
+    <string name="plain_text2">CONTRASEÑA</string>
+    <string name="plain_text3">EMAIL</string>
+    <string name="plain_text4">TELEFONO</string>
+    <string name="plain_text5">FECHA</string>
+
 </resources>
