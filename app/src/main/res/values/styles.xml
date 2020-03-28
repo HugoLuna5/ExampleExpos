@@ -50,4 +50,38 @@
     <style name="ToolbarColoredBackArrow" parent="AppTheme">
     </style>
 
+
+
+    <!--Etiquetas-->
+
+    <style name="letra">
+        <!-- Customize your theme here. -->
+        <item name="android:fontFamily">sans-serif-black</item>
+
+    </style>
+
+
+    <style name="sans_serif_black">
+        <!-- Customize your theme here. -->
+        <item name="android:fontFamily">sans-serif-black</item>
+
+    </style>
+
+
+
+    <style name="sans_serif">
+        <!-- Customize your theme here. -->
+        <item name="android:fontFamily">sans-serif</item>
+
+    </style>
+
+
+    <style name="sans_serif_medium">
+        <!-- Customize your theme here. -->
+        <item name="android:fontFamily">sans-serif-medium</item>
+
+    </style>
+
+
+
 </resources>

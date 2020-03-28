@@ -38,4 +38,18 @@
     <string name="btnNext">Siguiente</string>
 
 
+    <!--Etiquetas-->
+
+    <string name="etiqueta_informacion">Entrada</string>
+    <string name="caja_texto">escribir palabra</string>
+    <string name="entrada">Aceptar</string>
+    <string name="placeholder">Ingresar contraseña</string>
+    <string name="user">Usuario</string>
+    <string name="ok">ACEPTA R</string>
+    <string name="info">INFORMACIÓN</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="pass">Contraseña</string>
+
+
 </resources>

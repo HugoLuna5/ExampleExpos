@@ -14,5 +14,13 @@
     <color name="Buttona">#E91E63</color>
     <color name="TextButtons">#fff</color>
     <color name="Text">#3F51B5</color>
+    <color name="back">#3F51B5</color>
+
+
+    <!--Etiquetas-->
+
+    <color name="fondo_botones">#D81B60</color>}
+    <color name="colorx">#FFC107</color>
+
 
 </resources>

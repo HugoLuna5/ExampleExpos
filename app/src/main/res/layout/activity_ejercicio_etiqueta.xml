@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+    tools:context=".ui.etiquetas.ejercicio.EjercicioEtiquetaActivity">
+
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+
+    <LinearLayout
+        android:layout_below="@id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <EditText
+            android:id="@+id/username"
+            android:gravity="center"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:layout_margin="25dp"
+            android:inputType="text|textCapCharacters"
+            android:layout_width="match_parent"
+            android:hint="@string/user"
+            android:layout_height="50dp"/>
+
+
+        <EditText
+            android:id="@+id/password"
+            android:gravity="center"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:layout_margin="25dp"
+            android:inputType="numberPassword"
+            android:layout_width="match_parent"
+            android:hint="@string/pass"
+            android:layout_height="50dp"/>
+
+
+        <Button
+            android:id="@+id/actionBtn"
+            android:layout_gravity="center"
+            android:text="@string/ok"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

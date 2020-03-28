@@ -15,6 +15,7 @@ import butterknife.ButterKnife;
 import lunainc.com.mx.exampleexpos.R;
 import lunainc.com.mx.exampleexpos.ui.botones.ejemplo.EjemploBotonesActivity;
 import lunainc.com.mx.exampleexpos.ui.botones.ejercicio.FirstActivity;
+import lunainc.com.mx.exampleexpos.ui.etiquetas.ejercicio.EjercicioEtiquetaActivity;
 
 public class BotonesFragment extends Fragment {
 
@@ -57,7 +58,7 @@ public class BotonesFragment extends Fragment {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(getActivity(), FirstActivity.class);
+                Intent intent = new Intent(getActivity(), EjercicioEtiquetaActivity.class);
                 startActivity(intent);
 
             }
