@@ -22,5 +22,9 @@
     <color name="fondo_botones">#D81B60</color>}
     <color name="colorx">#FFC107</color>
 
+    <color name="colorAzul">#2196F3</color>
+    <color name="colorBlanco">#FFFFFF</color>
+    <color name="colorGris">#BE00E8</color>
+
 
 </resources>
