@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BackGround"
+   >
+
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/toolbar"/>
+
+    <Switch
+        android:layout_below="@id/toolbar"
+        android:id="@+id/switchinfo"
+        android:layout_width="323dp"
+        android:layout_height="66dp"
+        android:layout_margin="15dp"
+        android:text="@string/FirstSwitch"
+        android:textColor="@color/Text"
+        android:textSize="12pt"
+        tools:layout_editor_absoluteX="229dp"
+        tools:layout_editor_absoluteY="75dp" />
+
+
+
+    <Button
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="25dp"
+        android:id="@+id/btnReturn"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/borde_redondo"
+        android:gravity="center"
+        android:text="@string/btnReturn"
+        android:textColor="@color/TextButtons"
+        android:textSize="12pt"
+         />
+
+
+
+    <TextView
+        android:layout_below="@id/switchinfo"
+        android:id="@+id/txtInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/Text"
+        android:textSize="12pt"
+         />
+
+</RelativeLayout>

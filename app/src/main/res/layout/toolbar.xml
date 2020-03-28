@@ -1,0 +1,9 @@
+<androidx.appcompat.widget.Toolbar app:title="@string/app_name"
+    android:id="@+id/toolbar"
+    app:titleTextColor="@color/white"
+    app:theme="@style/ToolbarColoredBackArrow"
+    android:background="@color/colorPrimary"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" />
