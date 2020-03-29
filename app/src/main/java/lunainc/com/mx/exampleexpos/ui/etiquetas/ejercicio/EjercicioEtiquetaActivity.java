@@ -10,6 +10,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -61,10 +62,16 @@ public class EjercicioEtiquetaActivity extends AppCompatActivity {
 
                 if (use.trim().length() > 0 && pass.trim().length() > 0 ){
 
-                    Intent intent = new Intent(EjercicioEtiquetaActivity.this, SecondActivityEtiquetas.class);
-                    intent.putExtra("user", use);
-                    intent.putExtra("pass", pass);
-                    startActivity(intent);
+                    if(use.equals("ITSTA") && pass.equals("12345")){
+                        Intent intent = new Intent(EjercicioEtiquetaActivity.this, SecondActivityEtiquetas.class);
+                        intent.putExtra("user", use);
+                        intent.putExtra("pass", pass);
+                        startActivity(intent);
+                    }else {
+                        Toast.makeText(EjercicioEtiquetaActivity.this, "Usuario y contraseña no validos", Toast.LENGTH_SHORT).show();
+                    }
+                    
+                    
 
                 }
             }
