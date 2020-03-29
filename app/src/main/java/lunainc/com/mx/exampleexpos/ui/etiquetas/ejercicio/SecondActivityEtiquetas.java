@@ -16,12 +16,8 @@ public class SecondActivityEtiquetas extends AppCompatActivity {
 
     @BindView(R.id.txtPass)
     TextView txtPass;
-
-
     String username = "";
     String password = "";
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,14 +25,9 @@ public class SecondActivityEtiquetas extends AppCompatActivity {
 
         username = getIntent().getStringExtra("user");
         password = getIntent().getStringExtra("pass");
-
-
         ButterKnife.bind(this);
-
         setData();
     }
-
-
     public void setData(){
         txtUsername.setText(username);
         txtPass.setText(password);

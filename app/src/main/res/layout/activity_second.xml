@@ -6,11 +6,9 @@
     android:layout_height="match_parent"
     android:background="@color/BackGround"
    >
-
     <include
         layout="@layout/toolbar"
         android:id="@+id/toolbar"/>
-
     <Switch
         android:layout_below="@id/toolbar"
         android:id="@+id/switchinfo"
@@ -22,9 +20,6 @@
         android:textSize="12pt"
         tools:layout_editor_absoluteX="229dp"
         tools:layout_editor_absoluteY="75dp" />
-
-
-
     <Button
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"

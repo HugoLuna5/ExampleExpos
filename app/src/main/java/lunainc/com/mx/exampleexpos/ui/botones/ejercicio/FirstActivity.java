@@ -20,13 +20,10 @@ public class FirstActivity extends AppCompatActivity {
 
     @BindView(R.id.btnNext)
     Button btnNext;
-
     @BindView(R.id.rbNextWindow)
     RadioButton rbNext;
-
     @BindView(R.id.rbMsg1)
     RadioButton rmMsg1;
-
     @BindView(R.id.rbMsg2)
     RadioButton rmMsg2;
 
@@ -36,14 +33,10 @@ public class FirstActivity extends AppCompatActivity {
         setContentView(R.layout.activity_first);
 
         ButterKnife.bind(this);
-
         Toolbar myToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(myToolbar);
         myToolbar.setTitle(R.string.btn);
-
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
-
         events();
     }
 

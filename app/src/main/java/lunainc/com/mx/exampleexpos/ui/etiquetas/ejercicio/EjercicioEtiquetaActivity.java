@@ -51,7 +51,6 @@ public class EjercicioEtiquetaActivity extends AppCompatActivity {
 
     private void events() {
 
-
         actionBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -67,14 +66,7 @@ public class EjercicioEtiquetaActivity extends AppCompatActivity {
                     intent.putExtra("pass", pass);
                     startActivity(intent);
 
-
-
                 }
-
-
-
-
-
             }
         });
 

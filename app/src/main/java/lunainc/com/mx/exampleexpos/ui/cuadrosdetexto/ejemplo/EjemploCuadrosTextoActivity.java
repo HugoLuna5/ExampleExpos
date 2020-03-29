@@ -23,29 +23,18 @@ public class EjemploCuadrosTextoActivity extends AppCompatActivity {
 
     @BindView(R.id.txtNombre)
     EditText et1;
-
     @BindView(R.id.txtContraseña)
     EditText et2;
-
     @BindView(R.id.txtCorreo)
     EditText et3;
-
     @BindView(R.id.txtTelefono)
     EditText et4;
-
     @BindView(R.id.txtFecha)
     EditText et5;
-
-
     @BindView(R.id.txtImprimir)
     TextView tv1;
-
     @BindView(R.id.btnAceptar)
     Button boton;
-
-
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,8 +57,8 @@ public class EjemploCuadrosTextoActivity extends AppCompatActivity {
         boton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {   // metodo enlazado al boton de la vista
-                if(validarcorreo(et3)==true){
-                    ImprimirDatos(tv1);       //Invoca el metodo ImprimirDatos
+                if(validateEmail(et3)==true){
+                    validateDataAndShow(tv1);       //Invoca el metodo ImprimirDatos
 
                 }
 
@@ -82,7 +71,7 @@ public class EjemploCuadrosTextoActivity extends AppCompatActivity {
 
     // metodo el cual nos permite imprimir los datos en un textview
     @SuppressLint("SetTextI18n")
-    public void ImprimirDatos(View view) {
+    public void validateDataAndShow(View view) {
         // Variables en donde se guardara el valor que el usuario pondra
         String nombre = et1.getText().toString();
         String Contraseña = et2.getText().toString();
@@ -119,7 +108,7 @@ public class EjemploCuadrosTextoActivity extends AppCompatActivity {
     }
 
     // metodo booleano en donde hacemos la validacion del correo
-    private boolean validarcorreo(EditText email){
+    private boolean validateEmail(EditText email){
         String emailInput= email.getText().toString();
         if(!emailInput.isEmpty() && Patterns.EMAIL_ADDRESS.matcher(emailInput).matches()){
             return true;

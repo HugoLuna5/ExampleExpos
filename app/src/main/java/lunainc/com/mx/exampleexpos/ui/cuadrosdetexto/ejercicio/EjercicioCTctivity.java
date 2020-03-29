@@ -22,20 +22,14 @@ public class EjercicioCTctivity extends AppCompatActivity {
 
     @BindView(R.id.id_pass)
     EditText edt_pass;
-
     @BindView(R.id.id_pass2)
     EditText edt_veriPass;
-
     @BindView(R.id.id_usr)
     EditText user;
-
     @BindView(R.id.id_mail)
     EditText edt_Email;
-
     @BindView(R.id.id_ok)
     Button btnOk;
-
-
     private String email;
     private String username;
     private String password;
@@ -70,8 +64,7 @@ public class EjercicioCTctivity extends AppCompatActivity {
 
 
     public boolean validateData(){
-        username=user.getText().toString();//dando valor a la variable Nombre_user
-
+        username=user.getText().toString();
         password= edt_pass.getText().toString();
         password_verified= edt_veriPass.getText().toString();
         if(username.isEmpty()){
@@ -90,9 +83,6 @@ public class EjercicioCTctivity extends AppCompatActivity {
             return true;
         }
     }
-
-
-
     private boolean validateEmail(){
         email=edt_Email.getText().toString().trim();
         if(email.isEmpty()){

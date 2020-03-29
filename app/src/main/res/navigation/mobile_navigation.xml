@@ -9,7 +9,7 @@
         android:id="@+id/nav_btn"
         android:name="lunainc.com.mx.exampleexpos.ui.botones.BotonesFragment"
         android:label="@string/btn"
-        tools:layout="@layout/fragment_botonesxml">
+        tools:layout="@layout/fragment_main">
 
     </fragment>
 
@@ -20,11 +20,11 @@
         android:id="@+id/nav_et"
         android:name="lunainc.com.mx.exampleexpos.ui.etiquetas.EtiquetasFragment"
         android:label="@string/etiquetas"
-        tools:layout="@layout/fragment_etiquetas" />
+        tools:layout="@layout/fragment_main" />
 
     <fragment
         android:id="@+id/nav_ct"
         android:name="lunainc.com.mx.exampleexpos.ui.cuadrosdetexto.CuadroTextoFragment"
         android:label="@string/ct"
-        tools:layout="@layout/fragment_cuadros_texto" />
+        tools:layout="@layout/fragment_main" />
 </navigation>

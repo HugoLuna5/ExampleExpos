@@ -4,14 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/BackGround"
-    >
-
+    android:background="@color/BackGround">
     <include
         layout="@layout/toolbar"
         android:id="@+id/toolbar"/>
-
-
     <LinearLayout
         android:layout_below="@id/toolbar"
         android:id="@+id/containerText"
@@ -19,7 +15,6 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:orientation="horizontal">
-
         <TextView
             android:layout_margin="30dp"
             android:id="@+id/textView"
@@ -29,9 +24,7 @@
             android:text="@string/Option"
             android:textColor="@color/Text"
             android:textSize="12pt" />
-
     </LinearLayout>
-
     <LinearLayout
         android:layout_below="@id/containerText"
         android:id="@+id/containerRadioButtons"
@@ -41,13 +34,10 @@
         android:layout_y="203dp"
         android:gravity="center_horizontal"
         android:orientation="horizontal">
-
-
         <RadioGroup
             android:layout_margin="10dp"
             android:layout_width="wrap_content"
             android:layout_height="130dp">
-
             <RadioButton
                 android:id="@+id/rbNextWindow"
                 android:layout_width="match_parent"
@@ -55,7 +45,6 @@
                 android:text="@string/FirstRB"
                 android:textColor="@color/Text"
                 android:textSize="20sp" />
-
             <RadioButton
                 android:id="@+id/rbMsg1"
                 android:layout_width="match_parent"
@@ -63,7 +52,6 @@
                 android:text="@string/SecondRB"
                 android:textColor="@color/Text"
                 android:textSize="20sp" />
-
             <RadioButton
                 android:id="@+id/rbMsg2"
                 android:layout_width="353dp"
@@ -72,10 +60,7 @@
                 android:textColor="@color/Text"
                 android:textSize="20sp" />
         </RadioGroup>
-
-
     </LinearLayout>
-
     <Button
         android:layout_below="@id/containerRadioButtons"
         android:id="@+id/btnNext"

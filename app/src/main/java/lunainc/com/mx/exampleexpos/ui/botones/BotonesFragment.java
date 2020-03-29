@@ -18,17 +18,12 @@ import lunainc.com.mx.exampleexpos.ui.botones.ejercicio.FirstActivity;
 import lunainc.com.mx.exampleexpos.ui.etiquetas.ejercicio.EjercicioEtiquetaActivity;
 
 public class BotonesFragment extends Fragment {
-
     private View root;
-
     @BindView(R.id.btnExample)
     Button btnEjemplo;
 
     @BindView(R.id.btnEje)
     Button btnEjercicio;
-
-
-
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
@@ -39,28 +34,21 @@ public class BotonesFragment extends Fragment {
 
         return root;
     }
-
-
     public void events(){
 
         btnEjemplo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 Intent intent = new Intent(getActivity(), EjemploBotonesActivity.class);
                 startActivity(intent);
-
             }
         });
-
 
         btnEjercicio.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 Intent intent = new Intent(getActivity(), FirstActivity.class);
                 startActivity(intent);
-
             }
         });
 

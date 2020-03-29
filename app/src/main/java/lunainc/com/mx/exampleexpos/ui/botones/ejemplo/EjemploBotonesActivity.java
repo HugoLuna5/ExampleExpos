@@ -34,26 +34,18 @@ public class EjemploBotonesActivity extends AppCompatActivity {
     private ToggleButton toggleButton2;
     private SwitchCompat switchCompat;
     private FloatingActionButton floatingActionButton;
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ejemplo_botones);
         initViews();
     }
-
-
-
     public void initViews(){
 
         Toolbar myToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(myToolbar);
         myToolbar.setTitle(R.string.btn);
-
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
         boton = (Button) findViewById(R.id.buttonSimple1);
         imgButton = (ImageButton) findViewById(R.id.imgButton);
         checkBox1 = (CheckBox) findViewById(R.id.checkBox1);
