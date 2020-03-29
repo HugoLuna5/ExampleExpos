@@ -51,7 +51,7 @@ public class EjercicioCTctivity extends AppCompatActivity {
         ButterKnife.bind(this);
         Toolbar myToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(myToolbar);
-        myToolbar.setTitle(R.string.btn);
+        myToolbar.setTitle(R.string.ct);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         event();

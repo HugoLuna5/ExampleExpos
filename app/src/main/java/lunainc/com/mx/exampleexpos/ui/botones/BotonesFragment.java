@@ -58,7 +58,7 @@ public class BotonesFragment extends Fragment {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(getActivity(), EjercicioEtiquetaActivity.class);
+                Intent intent = new Intent(getActivity(), FirstActivity.class);
                 startActivity(intent);
 
             }

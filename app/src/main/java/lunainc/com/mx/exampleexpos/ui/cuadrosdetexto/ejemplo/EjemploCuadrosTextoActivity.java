@@ -55,7 +55,7 @@ public class EjemploCuadrosTextoActivity extends AppCompatActivity {
 
         Toolbar myToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(myToolbar);
-        myToolbar.setTitle(R.string.btn);
+        myToolbar.setTitle(R.string.ct);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 

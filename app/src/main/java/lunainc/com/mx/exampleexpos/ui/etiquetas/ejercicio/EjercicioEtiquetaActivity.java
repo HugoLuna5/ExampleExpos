@@ -40,7 +40,7 @@ public class EjercicioEtiquetaActivity extends AppCompatActivity {
 
         Toolbar myToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(myToolbar);
-        myToolbar.setTitle(R.string.btn);
+        myToolbar.setTitle(R.string.etiquetas);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
